@@ -5,9 +5,9 @@ Routing Protocols are interior gw protocols (IGPs) and exterior gw protocols(EGP
 
 
 
-    Routing Protocols
+    Dynamic Routing Protocols
            |
-           |-----  Private to Interior Network ------|
+           |-----  Interior Network ------|
            |                                         |------ Distance-vector -- RIP
            |                                         |                       -- IGRP
            |                                         |                       -- EIGRP
@@ -15,5 +15,5 @@ Routing Protocols are interior gw protocols (IGPs) and exterior gw protocols(EGP
            |                                                     |-------------- IS-IS
            |
            |
-           |-----  Public to Exterior Network |------ EGP
-                                              |------ BGP
+           |-----  Exterior Network |------ EGP
+                                    |------ BGP
